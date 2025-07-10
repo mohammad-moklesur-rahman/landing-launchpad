@@ -152,18 +152,21 @@ body{
 
 /* ! Users’ feedback section area styles */
 
+.user-feedback-area{
+    margin-top: 137px;
+}
+
 .user-feedback-title{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
     text-align: center;
-    margin-top: 137px;
+    margin-bottom: 50px;
 }
 
 .user-feedback{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
 }
 
 .feedback-bg{
