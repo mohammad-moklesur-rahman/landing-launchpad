@@ -149,3 +149,61 @@ body{
     color: #8D8E99;
     text-align: center;
 }
+
+/* ! Users’ feedback section area styles */
+
+.user-feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-top: 137px;
+}
+
+.user-feedback{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.feedback-bg{
+    width: 366px;
+    background-color: #FAFBFF;
+    padding: 24px;
+    border-radius: 14px;
+}
+
+.feedback-star img{
+    margin-right: 4px;
+    margin-bottom: 24px;
+}
+
+.feedback-title{
+    font-size: 24px;
+    font-weight: 600px;
+    color: #252432;
+}
+
+.feedback-semititle{
+    margin: 6px 0px 24px 0px;
+}
+
+.feedbacker-info{
+    display: flex;
+}
+
+.avatar{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.avatar-name{
+    font-weight: 600px;
+    color: #757575;
+    margin: 4px 0px 2px 0px;
+}
+
+.feedback-date{
+    color: #B3B3B3;
+    font-size: 14px;
+}
