@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F5F8FF;
+}
+
 /* ! Common styles */
 
 .common-width{
@@ -29,12 +33,22 @@
     color: #FFFFFF;
 }
 
-/* ! Navbar Section styles */
+/* ! Header area styles */
+
+
+/* * Navbar Section styles */
+
+.header{
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1)), url(../Assets/Hero-bg.png) no-repeat;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+}
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 51px;
+    padding-top: 51px;
 }
 
 .logo{
@@ -44,10 +58,25 @@
     text-decoration: none;
 }
 
-.sign-up-btn{
+.btn{
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
     padding: 12px 36px;
     font-weight: bold;
+}
+
+/* * Banner Section styles */
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    padding: 209px 117px 0px 117px;
+    text-align: center;
+}
+
+.banner-btn{
+    text-align: center;
+    margin-top: 37px;
 }
