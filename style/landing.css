@@ -80,3 +80,38 @@ body{
     text-align: center;
     margin-top: 37px;
 }
+
+/* ! Action section area styles */
+
+.action-section{
+    margin-top: 116px;
+}
+
+.action-content{
+    width: 517px;
+    margin: 62px 0px;
+}
+
+.action-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8D8E99;
+    margin: 23px 0px;
+}
+
+.action-img img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
