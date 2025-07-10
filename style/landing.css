@@ -237,3 +237,58 @@ body{
     border-radius: 48px;
     margin-top: 20px;
 }
+
+/* ! Touch section styles */
+
+.touch-section-info{
+    margin-top: 137px;
+}
+
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 130px;
+}
+
+/* * Input area styles */
+
+.touch-section-info{
+    height: 632px;
+}
+
+.input-name{
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+.input-style{
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin: 10px 0px 19px 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.textarea{
+    height: 135px;
+}
+
+.touch-btn{
+    display: flex;
+    justify-content: right;
+}
+
+.submit-btn{
+    width: 497px;
+    padding: 19px 0px;
+}
+
