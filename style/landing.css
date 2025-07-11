@@ -66,6 +66,13 @@ body{
     font-weight: bold;
 }
 
+.btn:hover{
+    background-color: #34495e;
+    color: #00ff00 ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 /* * Banner Section styles */
 
 .banner-title{
@@ -258,10 +265,6 @@ body{
 
 /* * Input area styles */
 
-.touch-section-info{
-    height: 632px;
-}
-
 .input-name{
     font-size: 18px;
     font-weight: 600px;
@@ -275,7 +278,6 @@ body{
     font-size: 20px;
     border-radius: 10px;
     border: none;
-    outline: none;
 }
 
 .textarea{
@@ -292,3 +294,49 @@ body{
     padding: 19px 0px;
 }
 
+/* ! Footer area styles */
+
+.footer-area{
+    background-color: #FFFFFF;
+    padding: 104px 0px;
+    margin-top: 90px;
+}
+
+.footer-container{
+    width: 531px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.footer-description{
+    font-size: 16px;
+    color: #8987A1;
+    margin: 20px 0px;
+}
+
+/* * Bottom navbar styles */
+
+.bottom-navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.bottom-navbar li{
+    display: inline-block;
+}
+
+.bottom-navbar a{
+    display: block;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.bottom-navbar a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 0.5;
+}
